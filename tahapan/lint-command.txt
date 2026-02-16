@@ -1,0 +1,28 @@
+npm run build:prod
+
+
+npm run lint
+
+npm run lint:fix
+
+npm run clean
+
+
+=======
+
+
+🎯 CARA PAKAI SCRIPTS
+Development:
+npm run dev          # Start dev server + hot reload
+npm run lint         # Check code quality
+npm run format       # Format all files
+
+Production:
+npm run lint:fix     # Fix code issues dulu
+npm run build:prod   # Build untuk production
+npm run preview      # Preview production build
+
+Maintenance:
+npm run clean        # Clear cache & build
+npm install          # Re-install dependencies
+npm run dev          # Start fresh

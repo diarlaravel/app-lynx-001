@@ -1,0 +1,8 @@
+# Sekarang Anda di: /c/app/app-lynx-001
+
+cd rspeedy-project          # Masuk ke project
+npm install                 # Install dependencies
+npm run dev                 # Start dev server
+npm run lint                # Check code quality
+npm run lint:fix            # Auto-fix issues
+npm run build               # Build for production

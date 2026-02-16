@@ -1,0 +1,31 @@
+louie@Workpro-Lite MINGW64 /c/app/app-lynx-001 (main)
+$ npm create rspeedy@latest my-dynamic-app
+
+> npx
+> create-rspeedy my-dynamic-app
+
+
+◆  Create Rspeedy Project
+│
+◇  Project name or path
+│  app0a
+│
+◇  Select language
+│  JavaScript
+│
+◇  Select development tools (Use <space> to select, <enter> to continue)
+│  none
+│
+◇  Select additional tools (Use <space> to select, <enter> to continue)
+│  none
+│
+◇  Next steps ─────────────╮
+│                          │
+│  1. cd app0a             │
+│  2. git init (optional)  │
+│  3. npm install          │
+│  4. npm run dev          │
+│                          │
+├──────────────────────────╯
+│
+└  All set, happy coding!

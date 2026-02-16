@@ -1,16 +1,29 @@
-# Local
-.DS_Store
-*.local
-*.log*
+# Dependencies
+node_modules/
 
-# Dist
-node_modules
+# Build output
 dist/
+.rspeedy/
+.rsbuild/
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # IDE
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# TypeScript
-*.tsbuildinfo
+# Temporary files
+*.tmp
+.cache/

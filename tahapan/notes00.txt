@@ -50,3 +50,12 @@ npm run dev
 
 ======================================
 
+# Buat folder structure
+mkdir -p src/features/home
+mkdir -p src/features/profile
+mkdir -p src/features/settings
+mkdir -p src/components
+mkdir -p src/utils
+
+======================================
+
