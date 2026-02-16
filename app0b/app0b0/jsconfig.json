@@ -1,0 +1,11 @@
+// Konfigurasi Path Alias (Penting untuk Efisiensi)
+// Buat file baru di root proyek bernama jsconfig.json. Ini agar Anda bisa memanggil komponen dengan @/components/... tanpa perlu pusing dengan ../../.
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

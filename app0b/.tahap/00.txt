@@ -2,15 +2,18 @@ npx create-expo-app@latest
 
 npx create-expo-app --template
 
+npx create-expo-app@latest --template tabs
+
 ========================================
 [TAHAP FIX] blank javascript
 npx create-expo-app@latest --template blank
 mkdir -p assets/images
 npx expo start
 
+# Membuat dir
 mkdir -p src/components/ui src/components/shared src/constants src/hooks
 
-buat 'jsconfig.json' di root, isinya
+# Membuat 'jsconfig.json' di root, isinya
 ```
 {
   "compilerOptions": {
@@ -21,6 +24,21 @@ buat 'jsconfig.json' di root, isinya
   }
 }
 ```
+
+# Membuat file
+File: src/components/shared/PageContainer.js
+File: src/components/ui/Input.js
+File: src/components/ui/Controls.js
+
+# Ubah isi App.js
+
+npx expo install @expo/vector-icons
+npx expo start -c
+
+
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+
 ========================================
 
 
