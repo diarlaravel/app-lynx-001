@@ -1,0 +1,27 @@
+npx create-expo-app@latest
+
+npx create-expo-app --template
+
+========================================
+[TAHAP FIX] blank javascript
+npx create-expo-app@latest --template blank
+mkdir -p assets/images
+npx expo start
+
+mkdir -p src/components/ui src/components/shared src/constants src/hooks
+
+buat 'jsconfig.json' di root, isinya
+```
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
+```
+========================================
+
+
+npx expo start --android

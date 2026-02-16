@@ -1,0 +1,10 @@
+npx create-expo-app@latest --template blank
+mkdir -p assets/images
+npx expo start
+
+lalu saya ingin membuat tombol atau komponen komponen yang bisa digunakan berulang supaya app tidak merender hal tidak berguna berulang ulang (konfirmasi jika ini adalah bestpractice)
+
+komponen yang saya butuhkan adalah layer sekelas layer pada tab, dengan kecepatan maksimal (zero lag) dan dimuat instant, lalu komponen texbox untuk (text, angka dan desimal), dan tombol serta check button dan badge
+semua bisa di customisasi
+
+lalu command apa yang harus saya jalankan atau langkah apa yang harus saya lakukan pada vscode
