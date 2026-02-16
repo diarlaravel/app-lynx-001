@@ -1,0 +1,11 @@
+saya ingin mengembangkan app android menggunakan lynx, disclaimer saya hanya memiliki vscode, akses internet, lynx explorer di smartphone android saya, lalu buatkan alur pengembangan dari awal serta pengecekan pengecekan demi kelancaran pengembangan,
+
+konsep app nya sederhana :
+```konsep
+* app memiliki wadah utama, wadah meload main lvb,
+* didalam main lvb ada interface dasar seperti tab atau menu menu apapun itu
+* setiap menu menu (selanjutnya saya sebut fitur) akan meload lvb nya masing masing
+* setiap lvb yang di load akan mengendap di local (perangkat pengguna), tidak di download berulang ulang setiap app dijalankan
+* mengunakan sharedPreference untuk menyimpan data versi lvb tiap lvb sehingga ketika ada pengecekan di <host_cdn_saya>/lvb/feature-a/version akan menampilkan data versi dan data itu disamakan dengan yang tersimpan di penyimpanan presisten pada sharedPreferences di perangkat pengguna saat berbeda maka akan di download lasted nya supaya sama, itu di triger oleh tombol (bukan oleh logika {at_app_launch})```
+
+buatkan alur yang jelas sampai app siap untuk level produksi,

@@ -1,0 +1,45 @@
+npm create rspeedy@latest my-dynamic-app
+
+louie@Workpro-Lite MINGW64 /c/app/app-lynx-001 (main)
+$ npm create rspeedy@latest my-dynamic-app
+Need to install the following packages:
+create-rspeedy@0.13.3
+Ok to proceed? (y) y
+
+
+> npx
+> create-rspeedy my-dynamic-app
+
+
+◆  Create Rspeedy Project
+│
+◇  Project name or path
+│  rspeedy-project
+│
+◇  Select language
+│  JavaScript
+│
+◇  Select development tools (Use <space> to select, <enter> to continue)  
+│  none
+│
+◇  Select additional tools (Use <space> to select, <enter> to continue)   
+│  Add Biome for code linting and formatting
+│
+◇  Next steps ─────────────╮
+│                          │
+│  1. cd rspeedy-project   │
+│  2. git init (optional)  │
+│  3. npm install          │
+│  4. npm run dev          │
+│                          │
+├──────────────────────────╯
+│
+└  All set, happy coding!
+
+npm notice
+npm notice New minor version of npm available! 11.3.0 -> 11.10.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.10.0    
+npm notice To update run: npm install -g npm@11.10.0
+npm notice
+
+======================================
